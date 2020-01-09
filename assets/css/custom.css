@@ -57,14 +57,14 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: Gainsboro;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: Darkgrey;
-  color: white;
+  background-color: Gainsboro;
+  color: black;
   transform: rotateY(180deg);
 }
 
