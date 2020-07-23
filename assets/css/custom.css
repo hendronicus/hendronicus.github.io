@@ -23,10 +23,6 @@
     text-align: center;
 }
 
-.jumbotron{
-    background-color:white;
-}
-
 
 .card-flip > div {
   backface-visibility: hidden;

@@ -40,76 +40,78 @@
 
 <!-- Kenntnisse -->
 <div class="middle">
-    <div class="container">
-        <h1 class="display-4 text-center mt-5 mb-5">Meine IT Kenntnisse</h1>
+    <div class="container text-center">
+        <h1 class="display-4 mt-5 mb-5">Meine IT Kenntnisse</h1>
 
-        <div class="card-deck">
+        <div class="row justify-content-center">
+            <div class="card-deck">
 
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid" src="assets/images/java.png">
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/images/java.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Java</h1>
+                            <p>Objektorientierte Programmiersprache</p>
+                            <p>Skill: Anfänger</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Java</h1>
-                        <p>Objektorientierte Programmiersprache</p>
-                        <p>Skill: Anfänger</p>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/images/python.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Python</h1>
+                            <p>Universelle Programmiersprache, speziell für Machine Learning</p>
+                            <p>Skill: Anfänger</p>
+                        </div>
                     </div>
                 </div>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/images/bootstrap.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Bootstrap</h1>
+                            <p>Webframework</p>
+                            <p>Skill: Anfänger</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/images/latex.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">LaTeX</h1>
+                            <p>Textsatzsoftware Bundle</p>
+                            <p>Skill: Fortgeschritten</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid" src="assets/images/python.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Python</h1>
-                        <p>Universelle Programmiersprache, speziell für Machine Learning</p>
-                        <p>Skill: Anfänger</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid" src="assets/images/bootstrap.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Bootstrap</h1>
-                        <p>Webframework</p>
-                        <p>Skill: Anfänger</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid" src="assets/images/latex.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">LaTeX</h1>
-                        <p>Textsatzsoftware Bundle</p>
-                        <p>Skill: Fortgeschritten</p>
-                    </div>
-                </div>
-            </div>
-
-
+            <!-- /card-deck -->
         </div>
-        <!-- /card-deck -->
+        <!-- /row -->
     </div>
-    <!-- /jumbotron -->
+    <!-- /container -->
 </div>
 
 <!-- Projekte -->
@@ -118,16 +120,19 @@
         <h1 class="display-4 text-center mb-5">Meine Projekte</h1>
         <div class="container">
             <ul>
-                <li>Recommender Checker</li>
-                <p>Eine Hausarbeit für die Riga Technical University <br>
-                    Realisiert in Python, zusammen mit einem importiertem ID3 Algorithmus</p>
+                <li class="mb-3">Recommender Checker <br>
+                    Eine Hausarbeit für die Riga Technical University
+                    Realisiert in Python, zusammen mit einem importiertem ID3 Algorithmus
+                </li>
 
-                <li>Diverse Webseiten</li>
-                <p>Geschrieben mit PHP und Bootstrap</p>
 
-                <li>Selfhosted Linux-Server</li>
-                <p>VPS Server mit Ubuntu als Proxy <br>
-                    Raspberry Pi mit Debian als Fileserver und Git-Server</p>
+                <li class="mb-3">Diverse Webseiten <br> Geschrieben mit PHP und Bootstrap</li>
+
+
+                <li class="mb-3">Selfhosted Linux-Server <br>
+                    VPS Server mit Ubuntu als Proxy <br>
+                    Raspberry Pi mit Debian als Fileserver und Git-Server
+                </li>
             </ul>
         </div>
     </div>
@@ -143,71 +148,75 @@
 
 <!-- Interessen -->
 <div class="middle">
-    <div class="container mt-5 mb-5">
-        <h1 class="display-4 text-center">Meine Hobbies</h1>
-        <div class="card-deck">
+    <div class="container mt-5 mb-5 text-center">
+        <h1 class="display-4">Meine Hobbies</h1>
+        <div class="row justify-content-center">
 
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid mx-auto d-block" src="assets/images/guitar.png">
+            <div class="card-deck">
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid mx-auto d-block" src="assets/images/guitar.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Gitarre</h1>
+                            <p>Klassisch, Elektrisch, Akustisch, Bouzouki, Ukulele</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Gitarre</h1>
-                        <p>Klassisch, Elektrisch, Akustisch, Bouzouki, Ukulele</p>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid mx-auto d-block" src="assets/images/golf.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Golf</h1>
+                            <p>Platzreife im Sommer 2018</p>
+                        </div>
                     </div>
                 </div>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid mx-auto d-block" src="assets/images/videogames.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Videospiele</h1>
+                            <p>Aufbau, Strategie, MMO; gerne Nische</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-flip" style="max-width: 15rem;">
+                    <div class="card-front bg-light text-black">
+                        <div class="card-body">
+                            <img class="img-fluid rounded d-block" src="assets/images/book.png">
+                        </div>
+                    </div>
+                    <div class="card-back bg-light text-black">
+                        <div class="card-body">
+                            <h1 class="display-8">Lesen</h1>
+                            <p>Space-Opera, Fantasie, Romane</p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid mx-auto d-block" src="assets/images/golf.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Golf</h1>
-                        <p>Platzreife im Sommer 2018</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid mx-auto d-block" src="assets/images/videogames.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Videospiele</h1>
-                        <p>Aufbau, Strategie, MMO; gerne Nische</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card card-flip">
-                <div class="card-front bg-light text-black">
-                    <div class="card-body">
-                        <img class="img-fluid rounded d-block" src="assets/images/book.png">
-                    </div>
-                </div>
-                <div class="card-back bg-light text-black">
-                    <div class="card-body">
-                        <h1 class="display-8">Lesen</h1>
-                        <p>Space-Opera, Fantasie, Romane</p>
-                    </div>
-                </div>
-            </div>
-
-
+            <!-- /card-deck -->
         </div>
-        <!-- /card-deck -->
+        <!-- /row -->
     </div>
-    <!-- /jumbotron -->
+    <!-- /container -->
 </div>
 
 
