@@ -91,3 +91,7 @@
     width: 100%;
     display: flex;
 }
+
+p.a {
+  word-break: break-all;
+}
